@@ -1,0 +1,2 @@
+# simpleArgsParser
+zero dependency
