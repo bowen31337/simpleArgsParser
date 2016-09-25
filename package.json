@@ -2,7 +2,7 @@
   "name": "simpleArgsParser",
   "version": "1.0.0",
   "description": "zero dependency, simple arguments parser",
-  "main": "/dist/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "node ./test/test.js --hello=world",
     "build": "tsc"
