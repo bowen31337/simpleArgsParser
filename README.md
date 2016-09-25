@@ -1,5 +1,5 @@
 # simpleArgsParser
-zero dependency,simple arguments parser, written in typescript.
+zero dependency,simple arguments parser, written in typescript with functional programming style.
 
 # example
 
