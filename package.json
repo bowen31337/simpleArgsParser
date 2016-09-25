@@ -1,0 +1,30 @@
+{
+  "name": "simpleArgsParser",
+  "version": "1.0.0",
+  "description": "zero dependency, simple arguments parser",
+  "main": "/dist/index.js",
+  "scripts": {
+    "test": "node ./test/test.js --hello=world",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bowen31337/simpleArgsParser.git"
+  },
+  "keywords": ["simple","arguments parser"],
+  "author": {
+    "name": "Bowen Li",
+    "email": "bowen.li@outlook.com.au"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bowen31337/simpleArgsParser/issues"
+  },
+  "homepage": "https://github.com/bowen31337/simpleArgsParser#readme",
+  "devDependencies": {
+    "@types/node": "^6.0.41",
+    "typescript": "^2.0.3",
+    "typings": "^1.4.0",
+    "autodts": "0.0.6"
+  }
+}
