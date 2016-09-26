@@ -4,7 +4,7 @@ zero dependency,simple arguments parser, written in typescript with functional p
 # example
 
 ``` js
-var argv = require(simpleArgsParserst').argv;
+var argv = require('simpleArgsParserst').argv;
 var argsObj = argv(process.argv.slice(2));
 console.dir(argsObj);
 ```
