@@ -14,6 +14,8 @@ import {argv} from 'simpleArgsParser';
 const argsObj = argv(process.argv.slice(2));
 console.dir(argsObj);
 ```
+
+``` js
 $ node test/test.js --hello=world --hi=world
 { hello:'world',hi:'world' }
 ```
