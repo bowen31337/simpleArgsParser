@@ -1,20 +1,6 @@
-﻿export class simpleArgsParser {
-    private args: Array<any>;
-    constructor(args: Array<string>) {
-        this.args = args;
-    }
-    public getArgs = (): any => {
-        let result: any = {};
-        this.args.filter(getValidArg).forEach((arg) => {
-          const args: Array<string> = getValidArg(arg);
-          try{
-             result[args[1]] = eval(args[2]);             
-          } catch(e){
-            result[args[1]] = args[2];
-          }
-        });
-        return result;
-    }
+﻿import {simpleArgsParser} from "./parser";
 
+export function argv(args: Array<string>){
+    let parser = new simpleArgsParser(args);
+    return parser.getArgs();
 }
-const getValidArg = (arg: any) => arg.match(/^--([^\s=]+)\s*=\s*([^\s]*)$/);

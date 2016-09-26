@@ -1,3 +1,3 @@
-var simpleArgsParser = require('../dist').simpleArgsParser;
-var argv = new simpleArgsParser(process.argv.slice(2));
-console.dir(argv.getArgs());
+var argv = require('../dist').argv;
+var result = argv(process.argv.slice(2));
+console.dir(result);
