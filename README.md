@@ -16,7 +16,6 @@ console.dir(argsObj);
 ```
 ##testing
 ``` js
-$ node test/test.js --hello=world --hi=world
-{ hello:'world',hi:'world' }
+$ npm test
 ```
 

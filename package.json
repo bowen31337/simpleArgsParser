@@ -4,14 +4,17 @@
   "description": "zero dependency, simple arguments parser",
   "main": "dist/index.js",
   "scripts": {
-    "test": "node ./test/test.js --hello=world",
+    "test": "mocha test/test.js --hello=world",
     "build": "tsc"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bowen31337/simpleArgsParser.git"
   },
-  "keywords": ["simple","arguments parser"],
+  "keywords": [
+    "simple",
+    "arguments parser"
+  ],
   "author": {
     "name": "Bowen Li",
     "email": "bowen.li@outlook.com.au"
@@ -23,8 +26,10 @@
   "homepage": "https://github.com/bowen31337/simpleArgsParser#readme",
   "devDependencies": {
     "@types/node": "^6.0.41",
+    "autodts": "0.0.6",
+    "chai": "3.5.0",
+    "mocha": "3.1.0",
     "typescript": "^2.0.3",
-    "typings": "^1.4.0",
-    "autodts": "0.0.6"
+    "typings": "^1.4.0"
   }
 }
