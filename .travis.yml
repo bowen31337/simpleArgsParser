@@ -1,16 +1,13 @@
 ﻿after_success: 
   - "npm run report-coverage"
-branches: 
-  only: 
-    - master
 cache: 
   directories: 
     - node_modules
-install: 
+before_script: 
   - "npm install"
 language: node_js
 node_js: 
-  - "6.3.1"
+  - iojs
 notifications: 
   email: false
 script: 
