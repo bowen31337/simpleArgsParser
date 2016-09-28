@@ -14,3 +14,4 @@ script:
   - "npm run build"
   - "npm run test"
   - "npm run check-coverage"
+sudo: required
