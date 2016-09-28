@@ -4,6 +4,7 @@
   "description": "zero dependency, simple arguments parser",
   "main": "dist/index.js",
   "scripts": {
+    "commit": "git-cz",
     "test": "mocha test/test.js --hello=world",
     "build": "tsc"
   },
@@ -28,8 +29,13 @@
     "@types/node": "^6.0.41",
     "autodts": "0.0.6",
     "chai": "3.5.0",
+    "commitizen": "2.8.6",
+    "cz-conventional-changelog": "1.2.0",
     "mocha": "3.1.0",
     "typescript": "^2.0.3",
     "typings": "^1.4.0"
+  },
+  "czConfig": {
+    "path": "node_modules/cz-conventional-changelog"
   }
 }
