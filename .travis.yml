@@ -10,7 +10,7 @@ branches:
 notifications:
   email: false
 node_js:
-  - 0.8.x
+  - node
 before_install:
   # detect if the current build's node version is < 4
   # if yes, install latest npm version 2.x
