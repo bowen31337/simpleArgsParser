@@ -1,7 +1,7 @@
 # simpleArgsParser
 zero dependency,simple arguments parser, written in typescript with functional programming style.
 
-[![Build Status](https://travis-ci.org/bowen31337/simpleArgsParser.svg?branch=master)](https://travis-ci.org/bowen31337/simpleArgsParser
+[![Build Status](https://travis-ci.org/bowen31337/simpleArgsParser.svg?branch=master)](https://travis-ci.org/bowen31337/simpleArgsParser)
 [![codecov](https://codecov.io/gh/bowen31337/simpleArgsParser/branch/master/graph/badge.svg)](https://codecov.io/gh/bowen31337/simpleArgsParser)
 
 
