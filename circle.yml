@@ -1,3 +1,4 @@
-﻿machine:
-  node:
+﻿--- 
+machine: 
+  node: 
     version: 6
